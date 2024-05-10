@@ -63,3 +63,17 @@ h3{
       text-shadow: 0 0 30px #bfdbe6, 0 0 10px #5c686a;
     }
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .text-md-center {
+        text-align: center !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .text-lg-center {
+        text-align: center !important;
+    }
+}
