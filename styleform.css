@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(to right, #026597, #360318);
+    font-family: 'Caveat', cursive;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+#box{
+    background-color: rgba(79, 141, 226, 0.666);
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 120px;
+    left: 550px;
+    border-radius: 15%;
+    border: solid rgb(241, 235, 247) 5px;
+}
+
+.email{
+    position: relative;
+    left: 164px;
+    top: 33px;
+}
+
+.password{
+    position: relative;
+    left: 146px;
+    top: 60px;
+}
+
+.email, .password{
+    font-size: 23px
+}
+
+.input_username{
+    position: relative;
+    top: 33px;
+    left: 110px;
+    outline: none;
+    border: 10;
+    border-radius: 10%;
+    background: #e4dfdf;
+}
+.input_password{
+    position: relative;
+    top: 70px;
+    left: 110px;
+    outline: none;
+    border: 10;
+    border-radius: 10%;
+    background: #e4dfdf;
+}
+
+.button{
+    background: rgba(2, 12, 23, 0.697);
+    padding: 8px;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    top: 110px;
+    left: 160px;
+}
+
+.img{
+    position: relative;
+    border-radius: 50%;
+    top: 100px;
+    left: 670px;
+    height: 150px;
+    width: 150px;
+}
+

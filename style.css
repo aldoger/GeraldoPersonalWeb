@@ -1,0 +1,65 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #181f34;
+}
+
+#heroes{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/Coding_Diaries_Hero.jpg);
+    padding-top: 100px;
+}
+
+#profile{   
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+h1{
+    font-family: "PT Serif Caption", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    animation: glow 1.5s ease-in-out infinite 
+}
+
+h2{
+    font-family: "PT Serif Caption", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3{
+    font-family: "PT Serif Caption", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.intro{
+    width: 33%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.foto{
+    border-radius: 65%;
+}
+
+.skill-box{
+    margin-top: 5rem;
+    width: 50%;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 20px #014bb1;
+    }
+    to {
+      text-shadow: 0 0 30px #bfdbe6, 0 0 10px #5c686a;
+    }
+}
